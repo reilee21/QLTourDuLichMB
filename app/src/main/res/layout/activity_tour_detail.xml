@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnBk"
+        android:backgroundTint="@color/do2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Đặt tour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTour" />
+
+    <ImageView
+        android:id="@+id/imageViewTour"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dulich1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="gia"
+        android:textColor="@color/do2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBk" />
+
+    <TextView
+        android:id="@+id/textViewMaTour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Mã tour:"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textViewMaTourValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="8dp"
+        android:text="T-202311252FL0"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewMaTour"
+        app:layout_constraintTop_toTopOf="@+id/textViewMaTour" />
+
+    <TextView
+        android:id="@+id/textViewTenTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Tên tour:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMaTour" />
+
+    <TextView
+        android:id="@+id/textViewTenTourValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="8dp"
+        android:text="Đà Lạt Có Gì Vui ?"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/textViewTenTour"
+        app:layout_constraintTop_toTopOf="@+id/textViewTenTour" />
+
+    <TextView
+        android:id="@+id/textViewNgayKhoiHanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Ngày khởi hành:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTenTour" />
+
+    <TextView
+        android:id="@+id/textViewNgayKhoiHanhValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="8dp"
+        android:text="2023-11-25T00:00:00"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/textViewNgayKhoiHanh"
+        app:layout_constraintTop_toTopOf="@+id/textViewNgayKhoiHanh" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerViewLichTrinh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNgayKhoiHanhValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

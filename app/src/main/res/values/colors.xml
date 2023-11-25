@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xanhduong">#293462</color>
+    <color name="vang">#f7bb16</color>
+    <color name="xanh2">#3576AB</color>
+    <color name="xanh3">#6073B2</color>
+    <color name="xanh4">#2E2E5D</color>
+    <color name="do1">#C4296A</color>
+    <color name="do2">#BE0003</color>
+    <color name="do3">#A3336B</color>
+    <color name="hong">#D558C6</color>
+    <color name="xam">#6A6A8B</color>
+    <color name="xam1">#C3C3D1</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Crystal_Blue">#6BA5B3</color>
+    <color name="Black_Black">#1e1927</color>
+</resources>

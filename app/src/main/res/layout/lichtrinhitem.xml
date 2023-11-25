@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/t_card"
+    android:padding="16dp">
+
+    <!-- Ngày -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Ngày:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNgayValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="2023-11-25T00:00:00" />
+    <!-- ID điểm đến -->
+
+    <!-- Mô tả -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Mô tả:"
+        android:textStyle="bold"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewMoTaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Chúng ta sẽ đến nơi được gọi là Đồi Thông Hai Mộ vì ở đây có khung cảnh rất đẹp và ở đây đặt biệt là có 2 mộ của 2 vợ chồng."
+        android:paddingTop="8dp" />
+
+
+</LinearLayout>
